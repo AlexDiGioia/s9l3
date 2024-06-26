@@ -22,7 +22,7 @@ class App extends Component {
         <MyNav claim="Bellissima" setCategory={this.selectCategory} />
 
         <Welcome sottotitolo="Sito Bello" />
-        <BookList/>
+        <BookList category={this.state.categoria}/>
 
         {/* <AllTheBooks category={this.state.categoria}/> */}
         <MyFooter />
